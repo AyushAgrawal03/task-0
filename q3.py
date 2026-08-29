@@ -4,9 +4,10 @@ def is_prime(n):
 
     for i in range(2, n):
         if n % i == 0:
-            return False
+            break
     else:
         return True
+    return False
 
 print(is_prime(7))   # True
 print(is_prime(12))  # False
