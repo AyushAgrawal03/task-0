@@ -1,7 +1,6 @@
 N = int(input())
 nums = list(map(int, input().split()))
 
-# Largest
 largest = nums[0]
 smallest = nums[0]
 total = 0
@@ -27,4 +26,3 @@ print("Odd Count: ", odd)
 print("Reversed: ", end = " ")
 for i in range(len(nums)-1, -1, -1):
     print(nums[i], end = " ")
-
